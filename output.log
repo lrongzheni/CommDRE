@@ -1,0 +1,166 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example:  98%|████████████████████████████████████████████████████████████▉ | 3003/3053 [01:46<00:01, 38.48it/s]
+# of documents 3053.
+# of positive examples 35615.
+Example: 100%|██████████████████████████████████████████████████████████████| 3053/3053 [01:48<00:00, 28.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example:  95%|████████████████████████████████████████████████████████████   | 953/1000 [00:33<00:02, 22.98it/s]
+# of documents 1000.
+# of positive examples 11518.
+Example: 100%|██████████████████████████████████████████████████████████████| 1000/1000 [00:35<00:00, 28.22it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example: 100%|██████████████████████████████████████████████████████████████| 1000/1000 [00:34<00:00, 28.87it/s]
+# of documents 1000.
+# of positive examples 0.
+# of negative examples 392158.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloading: 100%|███████████████████████████████████████████████████████████| 436M/436M [01:15<00:00, 5.78MB/s]
+Some weights of the model checkpoint at bert-base-cased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Total steps: 22890
+Warmup steps: 1373
+train.py:44: FutureWarning: Non-finite norm encountered in torch.nn.utils.clip_grad_norm_; continuing anyway. Note that the default behavior will change in a future release to error out if a non-finite total norm is encountered. At that point, setting error_if_nonfinite=false will be required to retain the old behavior.
+  torch.nn.utils.clip_grad_norm_(amp.master_params(optimizer), args.max_grad_norm)
+{'dev_F1': 45.074507450745074, 'dev_F1_ign': 43.90039153465232}
+{'dev_F1': 46.28506271379704, 'dev_F1_ign': 44.503112800680924}
+{'dev_F1': 52.61456865832436, 'dev_F1_ign': 50.53212317359292}
+{'dev_F1': 55.307956455030315, 'dev_F1_ign': 52.56675380251655}
+{'dev_F1': 57.012932832707556, 'dev_F1_ign': 54.90851799672072}
+{'dev_F1': 56.31586088372303, 'dev_F1_ign': 54.62399533970596}
+{'dev_F1': 57.663607513508886, 'dev_F1_ign': 55.655893659152376}
+{'dev_F1': 58.24171195079827, 'dev_F1_ign': 56.10686919831521}
+{'dev_F1': 57.57842050968556, 'dev_F1_ign': 55.11184333730584}
+{'dev_F1': 58.51127179923436, 'dev_F1_ign': 56.55289824118355}
+{'dev_F1': 58.45070422535211, 'dev_F1_ign': 56.41503253738587}
+{'dev_F1': 59.510571811208955, 'dev_F1_ign': 57.26769712425003}
+{'dev_F1': 58.78222146099168, 'dev_F1_ign': 56.77526281667701}
+{'dev_F1': 59.22318275904055, 'dev_F1_ign': 56.97449335408747}
+{'dev_F1': 59.60542540073983, 'dev_F1_ign': 57.43851832640924}
+{'dev_F1': 60.32909881490324, 'dev_F1_ign': 58.43382408285207}
+{'dev_F1': 60.19668737060042, 'dev_F1_ign': 58.313467072988644}
+{'dev_F1': 59.838413200530084, 'dev_F1_ign': 57.86269220763644}
+{'dev_F1': 59.79133570907217, 'dev_F1_ign': 57.885420976504435}
+{'dev_F1': 60.032246506628454, 'dev_F1_ign': 58.3341012482123}
+{'dev_F1': 60.23983670692296, 'dev_F1_ign': 58.287743531084935}
+{'dev_F1': 60.57262023721598, 'dev_F1_ign': 58.69504183450016}
+{'dev_F1': 60.73881722231531, 'dev_F1_ign': 58.7297346345465}
+{'dev_F1': 60.6656320055182, 'dev_F1_ign': 58.77783380011501}
+{'dev_F1': 60.7929897622766, 'dev_F1_ign': 58.926818821147386}
+{'dev_F1': 61.02705973891241, 'dev_F1_ign': 59.16348513551137}
+{'dev_F1': 60.89446059081247, 'dev_F1_ign': 59.054914642797485}
+{'dev_F1': 61.35978731563878, 'dev_F1_ign': 59.19757606727787}
+{'dev_F1': 62.60687725783426, 'dev_F1_ign': 60.284301499503205}
+{'dev_F1': 63.85390805579516, 'dev_F1_ign': 60.91774328675697}
