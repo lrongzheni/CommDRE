@@ -4,7 +4,7 @@ This repo shows the source of ICASSP 2023 paper: CommDRE:Document-level Relation
 
 Code
 
-We will open our code as soon as possiable. Similar code can be get in https://github.com/wzhouad/ATLOP
+We will open our code as soon as possiable. A code similar to this can be found in https://github.com/wzhouad/ATLOP
 
 Arch 
 
